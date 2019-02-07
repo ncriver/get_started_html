@@ -58,7 +58,8 @@ nav {
   margin-left: 20pt;
   color: #223344;
   border-color: red;
-  border-width: 5px;
+  border-width: 5pt;
+  border-style: solid;
   background: aqua
 }
 
@@ -73,11 +74,14 @@ section h1 {
 }
 
 article {
-  border: 1px;
+  border: 1px blue solid;
+  margin: 10pt;
+  padding: 10pt;
 }
 
 article header {
-  font-style: italic;
+  font-style: italic bold;
+  color: #2239ff
 }
 
 article p {
